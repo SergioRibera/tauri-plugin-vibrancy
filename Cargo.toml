@@ -13,7 +13,7 @@ keywords = [ "vibrancy", "acrylic", "blur", "tauri", "gui", "plugin", "tauri-plu
 categories = [ "gui" ]
 
 [dependencies]
-tao = { git = "https://github.com/tauri-apps/tao", branch = "next", default-features = false, features = [], optional = true }
+tao = { version = "0.6.1", default-features = false, features = [], optional = true }
 tauri = { git = "https://github.com/tauri-apps/tauri", branch = "next", default-features = false, features = [], optional = true }
 
 
